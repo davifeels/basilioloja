@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Lora', serif; /* Mais elegante para o corpo */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e5;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: gold;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Montserrat para o cabeçalho */
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600; /* Fonte mais pesada para um toque de sofisticação */
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.banner {
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x600/?jewelry') no-repeat center/cover;
+    color: rgb(0, 0, 0);
+    padding: 80px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.produto {
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 260px;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto button {
+    background: rgb(255, 230, 8);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.produto button:hover {
+    background: #d4af37;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
