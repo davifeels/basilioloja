@@ -19,7 +19,7 @@ header {
     letter-spacing: 2px;
 }
 
-.produtos {
+.colar.produtos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,7 +27,7 @@ header {
     gap: 20px;
 }
 
-.produto {
+.colar .produto {
     background: white;
     padding: 20px;
     margin: 15px;
@@ -38,39 +38,39 @@ header {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.produto:hover {
+.colar .produto:hover {
     transform: translateY(-10px);  /* Sobe o card quando passa o mouse */
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);  /* Aumenta a sombra */
 }
 
-.produto img {
+.colar .produto img {
     width: 100%;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
-.produto:hover img {
+.colar .produto:hover img {
     transform: scale(1.05);  /* Aumenta a imagem ao passar o mouse */
 }
 
-.produto h3 {
+.colar .produto h3 {
     font-size: 22px;
     color: #222;
     margin: 10px 0;
 }
 
-.produto p {
+.colar .produto p {
     font-size: 16px;
     color: #777;
 }
 
-.produto .preco {
+.colar .produto .preco {
     font-size: 20px;
     color: gold;
     margin: 15px 0;
 }
 
-.produto button {
+.colar .produto button {
     background: gold;
     color: black;
     border: none;
@@ -81,7 +81,7 @@ header {
     transition: background 0.3s ease;
 }
 
-.produto button:hover {
+.colar .produto button:hover {
     background: #d4af37;
 }
 
